@@ -1,0 +1,134 @@
+html,
+body {
+/*   width: 100%;
+  margin: 0;
+  padding: 0; */
+  font-family: "Nanum Myeongjo", "Playfair Display", serif;
+}
+
+
+.banner {
+  padding-top: 100px;
+}
+
+.yt-icon:hover>img{
+  content:url("https://raw.githubusercontent.com/s10718049/hoppipolla/gh-pages/youtube-hover.png");}
+
+
+
+.twitter-icon:hover>img{
+  content:url("https://raw.githubusercontent.com/s10718049/hoppipolla/gh-pages/twitter-hover.png");}
+
+.fb-icon:hover>img{
+  content:url("https://raw.githubusercontent.com/s10718049/hoppipolla/gh-pages/facebook-hover.png");}
+
+.movie {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.movie iframe,
+.movie object,
+.movie embed {
+  position: absolute;
+  top: 0;
+  left: 1.5%;
+  width: 97%;
+  height: 100%;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.1em;
+}
+
+#s1 {
+  position: relative;
+  width: 71.25%;
+  left: 15%;
+  padding-top: 100px;
+}
+
+.event {
+  list-style: none;
+  line-height: 2em;
+  margin-left: -33px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.event:hover {
+  color: #cacbcf;
+}
+
+.nav-item{
+margin-top:70px;
+}
+
+.nav-link {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.1em;
+}
+
+.navbar-text{
+  margin-top:60px;
+}
+
+#s2 {
+  position: relative;
+  width: 71.25%;
+  left: 15%;
+  padding-top: 80px;
+}
+
+.profileimg {
+  padding-top: 30px;
+  filter: brightness(1.4);
+}
+
+.profile-text {
+  padding-top: 10px;
+  margin-left:20px;
+}
+
+.team-name {
+  padding-top: 30px;
+   margin-left:20px;
+}
+
+#s3 {
+  position: relative;
+  width: 71.25%;
+  left: 15%;
+  padding-top: 80px;
+}
+
+#s4 {
+  position: relative;
+  width: 71.25%;
+  left: 15%;
+  padding-top: 80px;
+}
+
+.album-info {
+  padding-top: 1em;
+}
+
+a{
+  text-decoration:none;
+}
+
+.logo{
+  margin-left:30px;
+}
+
+footer{
+  height:100px;
+  background-color:#f8f9fa;
+  text-align:center;
+  line-height:100px;
+  margin-top:80px;
+}
